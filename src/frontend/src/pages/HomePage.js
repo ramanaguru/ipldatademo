@@ -12,6 +12,7 @@ import delhiLogo from "../assets/delhiLogo.png"
 import punjabLogo from "../assets/KingsPunjabLogo.png"
 import deccanLogo from "../assets/DeccanLogo.png"
 import risingpuneLogo from "../assets/risingpuneLogo.png"
+import csklogo from "../assets/csklogos.png"
 
 import './HomePage.css';
 
@@ -40,6 +41,7 @@ export const HomePage = () => {
                 "Kings XI Punjab": punjabLogo,
                 "Deccan Chargers": deccanLogo,
                 "Rising Pune Supergiants": risingpuneLogo,
+                "Chennai Super Kings" : csklogo
             };
 
             const teamsWithImages = data.map(team => ({
