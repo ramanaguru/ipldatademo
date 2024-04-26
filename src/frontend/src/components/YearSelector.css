@@ -1,0 +1,18 @@
+.YearSelector{
+    text-align: right;
+    list-style-type: none;
+
+}
+
+ul{
+    list-style-type: none;
+    border-radius: 7px;
+    margin-top:10px;
+}
+
+li{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+

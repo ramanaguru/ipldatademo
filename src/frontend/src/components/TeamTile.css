@@ -1,0 +1,138 @@
+/*.TeamTile {*/
+/*    text-align: center;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.team-image {*/
+/*    width: 100px; !* Adjust based on your preference *!*/
+/*    height: 100px; !* Adjust based on your preference *!*/
+/*    border-radius: 50%;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.TeamTile h1 {*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+/*.TeamTile h1 a {*/
+/*    color: #333;*/
+/*    text-decoration: none;*/
+/*    transition: color 0.3s ease-in-out;*/
+/*}*/
+
+/*.TeamTile h1 a:hover {*/
+/*    color: #007bff;*/
+/*}*/
+
+/*.team-image {*/
+/*    width: 100px; !* Adjust based on your preference *!*/
+/*    height: 100px; !* Adjust based on your preference *!*/
+/*    border-radius: 50%;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/*.team-logo {*/
+/*    width: 100px; !* Adjust width as needed *!*/
+/*    height: auto; !* Maintain aspect ratio *!*/
+/*    margin-bottom: 10px; !* Add some space below the logo *!*/
+/*}*/
+
+
+.TeamTile {
+    text-align: center;
+    padding: 20px;
+}
+
+.team-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.TeamTile h1 {
+    font-size: 1.5rem;
+}
+
+.TeamTile h1 a {
+    color: #313030;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/*.TeamTile h1 a:hover{*/
+/*    color: #007bff;*/
+/*}*/
+
+
+.team-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Add yellow background  && text colour for Chennai Super Kings */
+.TeamTile.csk{
+    background-color: #efef67;
+    color: #0f40b2;
+}
+
+.TeamTile.Mi {
+    background-color: #005daa;
+    color: #ffffff;
+}
+
+.TeamTile.pw {
+    background-color: #8d209d;
+    color: #8c8d96;
+}
+
+.TeamTile.srh {
+    background-color: #ff822a;
+    color: #000000;
+}
+
+.TeamTile.rr {
+    background-color: #E60493;
+    color: #ffffff;
+}
+
+.TeamTile.kkr {
+    background-color: #2e0854;
+    color: #ffffff;
+}
+
+.TeamTile.rcb {
+    background-color: #D22730;
+    color: #ffffff;
+}
+
+.TeamTile.gl {
+    background-color: #E55632;
+    color: #000000;
+}
+
+.TeamTile.ktk {
+    background-color: #6E4C95;
+    color: #ffffff;
+}
+
+.TeamTile.dc {
+    background-color: #004ba0;
+    color: #ffffff;
+}
+
+.TeamTile.kxip {
+    background-color: #aa4545;
+    color: #ffffff;
+}
+
+.TeamTile.deccan{
+    background-color: #efefef;
+    color: #000000;
+}
+
+.TeamTile.rps {
+    background-color: #AF417F;
+    color: #ffffff;
+}
