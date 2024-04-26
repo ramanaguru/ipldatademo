@@ -1,0 +1,77 @@
+.HomePage {
+    .team-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+        justify-content: center;
+        align-items: center;
+
+        /* Responsive styles */
+        @media (max-width: 767px) { /* All devices up to tablets */
+            grid-column-gap: 15px;
+            grid-row-gap: 45px;
+        }
+    }
+
+    .header-section {
+        text-align: center; /* Center align the text */
+
+        /* Responsive styles */
+        @media (max-width: 480px) { /* Mobile devices */
+            font-size: 1.2rem;
+        }
+
+        @media (min-width: 481px) and (max-width: 767px) { /* Tablets */
+            font-size: 1.5rem;
+        }
+    }
+
+    .team-grid > * {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
+
+        /* Responsive styles */
+        @media (max-width: 480px) { /* Mobile devices */
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 10px;
+        }
+
+        @media (min-width: 481px) and (max-width: 767px) { /* Tablets */
+            padding: 15px;
+        }
+    }
+
+    .team-grid > *:hover {
+        transform: perspective(1000px) rotateX(10deg); /* Apply 3D tilt effect on hover */
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); /* Different shadow on hover */
+    }
+
+    .app-name {
+        font-size: 3rem;
+        margin: 30px auto;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transitions */
+
+        /* Responsive styles */
+        @media (max-width: 480px) { /* Mobile devices */
+            font-size: 2rem;
+            margin: 20px auto;
+        }
+
+        @media (min-width: 481px) and (max-width: 767px) { /* Tablets */
+            font-size: 2.5rem;
+            margin: 25px auto;
+        }
+    }
+
+    .app-name:hover {
+        transform: perspective(1000px) rotateX(10deg); /* Apply 3D tilt effect on hover */
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4); /* Different shadow on hover */
+        text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.1), -3px -3px 3px rgba(0, 0, 0, 0.2); /* 3D text shadow */
+    }
+}
