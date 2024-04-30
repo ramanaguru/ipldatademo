@@ -1,5 +1,5 @@
 import './App.css';
-import {HashRouter as Router, Routes, Route, Navigate,} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route, Navigate,} from 'react-router-dom'
 import {TeamPage} from "./pages/TeamPage";
 import {MatchPage} from "./pages/MatchPage";
 import {HomePage} from "./pages/HomePage";
