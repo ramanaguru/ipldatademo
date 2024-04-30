@@ -13,7 +13,7 @@ export const TeamPage =  () => {
 
     useEffect(
         () => {
-            const url = `${process.env.REACT_APP_API_ROOT_URL}/teams/${teamName}`;
+            const url = `http://localhost:8080/teams/${teamName}`;
             const fetchTeams  = async() =>{
                 const response =await fetch(url)
                 const data = await response.json();
