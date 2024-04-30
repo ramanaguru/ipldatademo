@@ -21,7 +21,7 @@ export const HomePage = () => {
     const [teams, setTeams] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:8080/teams`;
+        const url = `${process.env.REACT_APP_API_ROOT_URL}/teams`;
 
         const fetchAllTeams = async () => {
             const response = await fetch(url);
